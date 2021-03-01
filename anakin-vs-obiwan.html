@@ -10,46 +10,64 @@
 
 <body>
 
+  <!-- call upon the first image seen-->
   <img src="images/anakin vs obi wan.jpg" alt="Obi wan and anakin dueling on mustafar" width="50%">
   <!--  https://starwars.fandom.com/wiki/Duel_on_Mustafar/Legends  -->
 
-  <iframe src="https://en.wikipedia.org/wiki/Mustafar" title="Mustafar Wikipedia page" width = "49%" height="375"></iframe>
+  <!-- Opens an iframe on the battle of mustafar-->
+  <iframe src="https://en.wikipedia.org/wiki/Mustafar" title="Mustafar Wikipedia page" width="49%"
+    height="375"></iframe>
 
 
-
+  <!-- my web pages links-->>
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="anakin-vs-obiwan.html">Anakin Vs Obiwan script</a></li>
   </ul>
 
-  
+
 
   <h2> this webpage is going to be used to test your <u><b> knowledge</b></u> of the Obi wan vs Anakin battle on
     mustafar</h2> </br>
 
+  <!-- you turned her against me Obiwan (uses a dropdown menu)-->
+  <p> <b><u>Anakin:</u></b></br>
 
-  <p> You turned her __________ me Obiwan!</p>
+    You turned her __________ me Obiwan!</p>
+
   <select name="Youturnedheragainstme" id="Youturnedheragainstme">
     <option value="towards"><b>towards</b></option>
     <option value="against"><em>against</em></option>
     <option value="away from"> <strong>away from</strong></option>
-  </select>
+  </select> </br>
 
-  <p>You have done that __________ Anakin!</p>
+  <!-- you have done that yourself anankin (uses radio buttens)-->
+  <p><b><u>Obi wan:</u></b></br>
+
+    You have done that __________ Anakin!</p>
 
   <input type="radio" id="yourself" name="youhavedonethatyourself" value="youhavedonethatyourself">
   <label for="yourself">yourself</label>
   <input type="radio" id="remorse" name="youhavedonethatyourself" value="youhavedonethatyourself">
   <label for="without remorse">without remorse</label></br> </br>
 
-  <p>You will __________ take her from me Obiwan!</p>
+  <!-- not take her from me obi wan (uses a text box)-->
+  <p> <b><u>Anakin:</u></b></br>
+
+    You will __________ take her from me Obiwan!</p>
 
   <form>
     <label for="not"></label>
     <input type="text" id="not" name="not" placeholder="put your answer here!"><br>
   </form>
 
-  <p>Your __________ and your __________ for power have already done that.
+  <!--Your anger and your lust for power have already done that.
+  You have allowed this dark lord to twist your mind,
+  until now... until now you have become the very thing you swore to destroy. (uses a checkbox)-->
+
+  <p> <b><u>Obi wan:</u></b></br>
+
+    Your __________ and your __________ for power have already done that.
     You have allowed this __________ lord to twist your mind,
     until now... until now you have become the very thing you __________ to destroy.</p>
 
@@ -77,28 +95,161 @@
 
   <input type="checkbox" id="dumb" name="dumb">
   <label for="dumb"> dumb</label>
-  
+
   <input type="checkbox" id="swore" name="swore">
   <label for="swore"> swore</label>
 
   <input type="checkbox" id="were told" name="were told">
   <label for="were told"> foretold</label>
 
-  </br> </br> </br> </br>
+  </br>
 
-  <p> "Don't __________ me, Obi-Wan. I see through the __________ of the Jedi.
-      I do not fear the dark side as you do. I have brought __________, freedom
-      justice and __________ to my new __________!"</p>
+  <!--"Don't lecture me, Obi-Wan. I see through the lies of the Jedi.
+    I do not fear the dark side as you do. I have brought peace, freedom
+    justice and security to my new empire!" (uses a checkbox)-->
 
-    <!-- lecture lies peace security empire -->
+  <p> <b><u>Anakin:</u></b></br>
+
+    Don't __________ me, Obi-Wan. I see through the __________ of the Jedi.
+    I do not fear the dark side as you do. I have brought __________, freedom
+    justice and __________ to my new __________!</p>
+
+  <!-- lecture lies peace security empire -->
+  <input type="checkbox" id="lecture" name="lecture">
+  <label for="lecture"> lecture</label>
+
+  <input type="checkbox" id="hatred" name="hatred">
+  <label for="hatred"> hatred</label>
+
+  <input type="checkbox" id="hysterics" name="hysterics">
+  <label for="hysterics"> hysterics</label>
+
+  <input type="checkbox" id="lies" name="lies">
+  <label for="lies"> lies</label>
+
+  <input type="checkbox" id="peace" name="peace">
+  <label for="peace"> peace</label>
+
+  <input type="checkbox" id="security" name="security">
+  <label for="security"> security</label>
+
+  <input type="checkbox" id="dumb" name="dumb">
+  <label for="dumb"> dumb</label>
+
+  <input type="checkbox" id="swore" name="swore">
+  <label for="swore"> swore</label>
+
+  <input type="checkbox" id="empire" name="empire">
+  <label for="empire"> empire</label>
+
+  <p></p> </br>
 
 
+  <!-- my 3 line table plus my new input (uses a dropdown + text)-->
+  <table>
+    <tr>
+      <td> <b><u>Obi wan:</u></b></br>
 
+        <!-- your new empire-->
+        Your new __________?</td>
+      <td><input type="text" id="empire" name="empire" value="Your answer :)"></td>
+      </select></td>
+    </tr>
+    <tr>
+      <td> <b><u>Anakin:</u></b></br>
 
+        Don't make me __________ you</td>
+      <td><select size="1" id="dontmakemekillyou" name="dontmakemekillyou">
+          <option value="love">
+            love
+          </option>
+          <option value="kill">
+            kill
+          </option>
+          <option value="torture" selected="selected">
+            torture
+          </option>
+          <option value="hope">
+            Hope
+          </option>
+          <option value="end">
+            end
+          </option>
+        </select></td>
+    </tr>
+    <tr>
+      <td> <b><u>Obi wan:</u></b></br>
 
+        <!--Anakin, my allegiance is to the reubublic, to Democracy-->
+        Anakin, my allegiance is to the __________, to Democracy!
+      </td>
+      <td><select size="1" id="allegiance" name="allegiance">
+          <option value="Sith">
+            Sith
+          </option>
+          <option value="Democracy">
+            Democracy
+          </option>
+          <option value="succeed" selected="selected">
+            torture
+          </option>
+          <option value="Republic">
+            Republic
+          </option>
+        </select></td>
+    </tr>
+  </table>
+  </br>
 
+  <p><b><u>Anakin:</u></b></br>
+    <!--If you're not with me, then you're my enemy.-->
+    If you're not with me, then you're my __________.
+  </p>
 
+  <input type="radio" id="friend" name="friend" value="friend">
+  <label for="friend">friend</label>
+  <input type="radio" id="enemy" name="enemy" value="enemy">
+  <label for="enemy">enemy</label></br> </br>
 
+  <!--Only a Sith deals in absolutes. I will do what I must.-->
+  <p><b><u>Obi wan:</u></b></br>
+
+    Only a Sith deals in __________. I will do what I must. </br> </br>
+    White = absolutes &#160 Black = the dark arts
+
+  </p>
+
+  <form action="/action_page.php">
+    <label for="absolutes">Select color:</label>
+    <input type="color" id="absolutes" name="absolutes" value="#ff0000">
+  </form>
+
+  <table>
+    <tr>
+      <td><b><u>Anakin:</u></b></br>
+        <!-- you will try-->
+
+        You will</td>
+      <td><select size="1" id="youwilltry" name="youwilltry">
+          <option value="try">
+            try
+          </option>
+          <option value="fail">
+            fail
+          </option>
+          <option value="succeed" selected="selected">
+            succeed
+          </option>
+          <option value="die">
+            die
+          </option>
+          <option value="fall">
+            fall
+          </option>
+        </select></td>
+    </tr>
+
+  </table>
   <!-- 
         "You turned her against me!"
         "You have done that yourself."
@@ -115,34 +266,8 @@
         https://starwars.fandom.com/wiki/Duel_on_Mustafar
     -->
 
-
-  </br> </br> </br> </br> </br> 
-  <table>
-      <tr>
-        <td>You will</td>
-        <td><select size="1" id="youwilltry" name="youwilltry">
-            <option value="try">
-                try
-            </option>
-            <option value="fail">
-                fail
-            </option>
-            <option value="succeed" selected="selected">
-                succeed
-            </option>
-            <option value="die">
-                die
-            </option>
-            <option value="fall">
-                fall
-            </option>
-        </select></td>
-    </tr>
-</table>
-
-  </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
-  <iframe width="100%" height="800"
-  src="https://www.youtube.com/embed/fP8APGmWxGs">
+  </br> </br> </br> </br>
+  <iframe width="100%" height="800" src="https://www.youtube.com/embed/fP8APGmWxGs">
   </iframe>
 
 </body>
